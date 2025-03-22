@@ -1,0 +1,57 @@
+header {
+  text-align: center;
+}
+
+header > h1 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #f9f4da;
+}
+
+header > p {
+  max-width: 350px;
+  font-size: 0.875rem;
+  color: #8a8a8a;
+}
+
+.status-section {
+  background-color: #10a051;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+  margin-block: 30px;
+  color: #f9f4da;
+}
+.status-section > h2,
+.status-section > p {
+  font-size: 1.25rem;
+  margin: 5px;
+}
+.status-section > p {
+  font-size: 1rem;
+}
+.languages-chips {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 350px;
+  justify-content: center;
+}
+.word-letters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-block: 30px;
+}
+.letter-box {
+  background-color: #323232;
+  color: white;
+  border-bottom: 1px solid #f9f4da;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #292929;
+  border-radius: 1px;
+  margin: 1px;
+}
